@@ -1,0 +1,29 @@
+.footerContainer {
+    background-color: #003f58;
+}
+
+.footerContainer a {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.subscribeText {
+    text-align: center;
+    color: white;
+    background-color: #005d82;
+    padding: 15px;
+}
+
+.footerWrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    flex-direction: revert;
+    text-align: left;
+    padding: 50px 0;
+}
+
+.footerLogo {
+    align-self: flex-end;
+    width: 200px;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,107 @@
+.scheduleTopSection {
+    color: #005d82;
+    margin-bottom: 50px;
+
+}
+
+.searchWrapper {
+    position: absolute;
+    top: 300px;
+    right: 200px;
+    background-color: #edcd66;
+    padding: 10px 25px;
+    border-radius: 10px;
+
+}
+
+
+.searchWrapper h2 {
+    color: #005d82;
+    margin-bottom: 10px;
+}
+
+.searchWrapper input {
+    padding: 25px;
+    border: none;
+    border-radius: 10px;
+
+
+}
+
+.searchWrapper input::placeholder {
+    color: #edcd66;
+    font-size: 21 px;
+
+}
+
+.scheduleWrapper {
+    background-color: #eddda8;
+}
+
+.destinationsWrapper {
+    background-color: gray;
+    background-image: url('https://static.globaltribes.io/site/des-back.png');
+}
+
+.destinationsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    color: white;
+}
+
+.destinationsLeftSection {
+    flex: 1;
+}
+
+.destinationsRightSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.destinationsCard {
+    background-color: rgb(59, 59, 59);
+    height: 430px;
+    border-radius: 10px;
+
+}
+
+.destinationsCard img {
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}
+
+.destinationsCard h3 {
+    padding: 10px 20px;
+    color: white;
+}
+
+
+@media screen and (max-width : 1370px) {
+    .spacer {
+        display: none;
+    }
+
+    .searchWrapper {
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        left: 0;
+        right: 0;
+        text-align: center;
+
+    }
+
+
+}

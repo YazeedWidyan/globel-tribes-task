@@ -1,0 +1,139 @@
+.destinationsContainer {
+    background-color: gray;
+    background-image: url('https://static.globaltribes.io/site/des-back.png');
+}
+
+.destinationsTopSection {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.destinationsBottomSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+    gap: 15px;
+}
+
+.destinationsCard {
+    background-color: rgb(59, 59, 59);
+    height: 430px;
+    border-radius: 10px;
+
+}
+
+.destinationsCard img {
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}
+
+.destinationsCard h3 {
+    padding: 10px 20px;
+    color: white;
+}
+
+
+
+.itemLeftSection {
+    flex: 1;
+}
+
+
+.itemContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.itemTitle {
+    background-color: #003f58;
+    color: white;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+
+.itemDesc {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.itemtrips {
+    background-color: rgba(214, 214, 214, 0.384);
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    border: 1px solid white;
+}
+
+.tripsSubTitle {
+    color: #003f58;
+}
+
+.tripsCount {
+    color: #003f58;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tripsBtn {
+    background-color: #003f58;
+    padding: 2px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.itemImage {
+    width: 433px;
+    height: 595px;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+.itemRightSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.destinationsCardWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.destinationsCardRounded {
+    border: 1px solid white;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+@media screen and (max-width : 1370px) {
+    .spacer {
+        display: none;
+    }
+
+    .itemImage {
+        display: none;
+    }
+}

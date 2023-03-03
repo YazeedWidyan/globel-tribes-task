@@ -1,0 +1,108 @@
+.categoriesContainer {
+    background-color: #003f58;
+}
+
+.categoriesTopSection {
+    color: white;
+    margin-bottom: 50px;
+}
+
+.categoriesBottomSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 70px;
+}
+
+.categoriesCard {
+    border: 1px solid white;
+    height: 150px;
+    width: 150px;
+    border-radius: 100px;
+    margin-bottom: 20px;
+
+}
+
+.categoriesCard img {
+    border-radius: 10px;
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+
+}
+
+.categoriesCard h3 {
+    padding: 10px 20px;
+    color: white;
+}
+
+
+.itemLeftSection {
+    flex: 1;
+}
+
+
+.itemContainer {
+    display: flex;
+}
+
+.itemTitle {
+    background-color: white;
+    color: #003f58;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+
+}
+
+.itemDesc {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.itemtrips {
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.tripsSubTitle {
+    color: #003f58;
+}
+
+.tripsCount {
+    color: #003f58;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.tripsBtn {
+    background-color: #003f58;
+    padding: 2px 20px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.itemImage {
+    width: 433px;
+    height: 595px;
+}
+
+.spacer {
+    flex-grow: 1;
+}
+
+@media screen and (max-width : 1370px) {
+    .spacer {
+        display: none;
+    }
+
+    .itemImage {
+        display: none;
+    }
+}

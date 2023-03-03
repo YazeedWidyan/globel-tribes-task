@@ -1,0 +1,23 @@
+.content {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffce2b;
+    color: blue;
+}
+
+.bookBtn {
+    border: 1px solid white;
+    background-color: #ffce2b;
+    border-radius: 5px;
+    color: blue;
+    font-size: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
